@@ -1,8 +1,0 @@
-{
-    "verilog.waveform.viewers.default": "gtkwave",
-    "files.associations": {
-        "*.v": "verilog",
-        "*.vh": "verilog"
-    },
-    "verilog.linting.linter": "iverilog"
-}

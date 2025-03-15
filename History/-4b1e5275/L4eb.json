@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "*.v": "verilog",
-        "*.vh": "verilog"
-    },
-    "verilog.linting.linter": "iverilog",
-    "verilog.linting.arguments": ["d_flip_flop.v"],
-    "files.autoSave": "onFocusChange"
-}
