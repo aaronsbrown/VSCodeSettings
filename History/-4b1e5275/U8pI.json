@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.v": "verilog",
+        "*.vh": "verilog"
+    },
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.arguments": ["*.v"],
+    "files.autoSave": "onFocusChange"
+}

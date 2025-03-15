@@ -1,0 +1,9 @@
+{
+    "verilog.linter.path": "iverilog",
+    "verilog.waveform.viewer": "gtkwave",
+    "files.associations": {
+        "*.v": "verilog",
+        "*.vh": "verilog"
+    },
+    "verilog.linting.linter": "iverilog"
+}
