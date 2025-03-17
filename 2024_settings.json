@@ -1,0 +1,132 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "editor.fontSize": 16,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.startupPrompt": "never",
+    "C_Cpp.default.browse.path": [],
+    "editor.minimap.enabled": false,
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // Switch between buffers
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        //SPLITS
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                ":split"
+            ]
+        },
+        // PANES
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.focusBelowGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.focusAboveGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        // FILE TREE
+        {
+            "before": [
+                "leader",
+                "n",
+                "e"
+            ],
+            "commands": [
+                "workbench.explorer.fileView.focus"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "Esc"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 26,
+    "editor.fontLigatures": true,
+    "python.defaultInterpreterPath": "/Users/aaronbrown/anaconda3/envs/langchain/bin/python",
+    "python.analysis.diagnosticSeverityOverrides": {},
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.inheritEnv": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "explorer.confirmDelete": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "atari-dev-studio.application.configuration.latestVersion": "0.10.5",
+    "files.autoSave": "onFocusChange",
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "git.confirmSync": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "standard"
+}
